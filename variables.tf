@@ -21,5 +21,5 @@ variable "glue_crawler_name" {
 
 #declare a script path
 variable "script_s3_path" {
-  default = "s3:/bucketforgitfile123/data1/lambdainvokingetl.py"
+  default = "s3://bucketforgitfile123/data1/lambdainvokingetl.py"
 }
