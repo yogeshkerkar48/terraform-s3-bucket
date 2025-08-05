@@ -1,11 +1,25 @@
-variable "aws_region" {
-  description = "AWS region"
-  type        = string
-  default     = "us-east-1"
+#declare a region
+variable "region" {
+  default = "us-east-1"
 }
 
-variable "bucket_name" {
-  description = "S3 bucket name"
-  type        = string
-  default     = "my-terraform-bucket-yogesh-kerkar-202508051133"
+#declare a bucket name
+variable "bucket_name_prefix" {
+  default = "automationteraform2310201"
+}
+
+
+#declare a glue job name
+variable "glue_job_name" {
+  default = "glue-etl-job201"
+}
+
+#declare a crawler name
+variable "glue_crawler_name" {
+  default = "my-etl-crawler201"
+}
+
+#declare a script path
+variable "script_s3_path" {
+  default = "s3://automationthroughteraform2012310/scripts/lambdainvokingetl.py"
 }
