@@ -38,7 +38,7 @@ jobs:
 
       - name: Upload ETL Script to S3
         run: |
-          aws s3 cp lambdainvokingetl.py s3://automationthroughteraform2012310/scripts/lambdainvokingetl.py
+          aws s3 cp lambdainvokingetl.py s3://bucketforgitfile123/data1/lambdainvokingetl.py
           echo "ETL script uploaded to S3."
 
       - name: Start Glue ETL Job
