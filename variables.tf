@@ -7,5 +7,5 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "S3 bucket name"
   type        = string
-  default     = "my-simple-terraform-bucket-123456"
+  default     = "my-terraform-bucket-yogesh-kerkar-202508051133"
 }
