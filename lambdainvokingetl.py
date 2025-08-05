@@ -9,7 +9,7 @@ from pyspark.sql import SparkSession
 #args = getResolvedOptions(sys.argv, ['S3_Source_file', 'S3_Destination_file'])
 
 source_path = "s3://trans123321/abcd/"
-destination_path = "s3://newtransform123456/data/"
+destination_path = "s3://automationthroughteraform2012310/cleaned_data/"
 # Create Spark and Glue Context
 sc = SparkContext()
 glueContext = GlueContext(sc)
